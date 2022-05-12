@@ -2,6 +2,7 @@ package aoc;
 
 import aoc.solutions.PuzzleSolution;
 import aoc.solutions.Solution1;
+import aoc.solutions.Solution2;
 
 import java.util.List;
 
@@ -22,6 +23,8 @@ public class SolutionProvider {
         switch (puzzleNumber) {
             case 1:
                 return new Solution1();
+            case 2:
+                return new Solution2();
             default:
                 return new NoSuchSolution();
         }
