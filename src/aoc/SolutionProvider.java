@@ -3,6 +3,7 @@ package aoc;
 import aoc.solutions.PuzzleSolution;
 import aoc.solutions.Solution1;
 import aoc.solutions.Solution2;
+import aoc.solutions.Solution3;
 
 import java.util.List;
 
@@ -25,6 +26,8 @@ public class SolutionProvider {
                 return new Solution1();
             case 2:
                 return new Solution2();
+            case 3:
+                return new Solution3();
             default:
                 return new NoSuchSolution();
         }
