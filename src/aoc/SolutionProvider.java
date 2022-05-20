@@ -1,9 +1,6 @@
 package aoc;
 
-import aoc.solutions.PuzzleSolution;
-import aoc.solutions.Solution1;
-import aoc.solutions.Solution2;
-import aoc.solutions.Solution3;
+import aoc.solutions.*;
 
 import java.util.List;
 
@@ -28,6 +25,8 @@ public class SolutionProvider {
                 return new Solution2();
             case 3:
                 return new Solution3();
+            case 4:
+                return new Solution4();
             default:
                 return new NoSuchSolution();
         }
