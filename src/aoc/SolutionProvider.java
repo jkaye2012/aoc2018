@@ -27,6 +27,8 @@ public class SolutionProvider {
                 return new Solution3();
             case 4:
                 return new Solution4();
+            case 5:
+                return new Solution5();
             default:
                 return new NoSuchSolution();
         }
